@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
-
+// import '../../ncu.png'
 class DegreeCard extends Component {
   render() {
     const degree = this.props.degree;
     const theme = this.props.theme;
     return (
       <div className="degree-card">
-        {/* {degree.logo_path && (
+        {degree.logo_path && (
           <Flip left duration={2000}>
             <div className="card-img">
               <img
@@ -16,13 +16,14 @@ class DegreeCard extends Component {
                   maxWidth: "100%",
                   maxHeight: "100%",
                   transform: "scale(0.9)",
+                  borderRadius: "22%"
                 }}
-                src={degree.logo_path}
+                src={require('../../ncu.png')}
                 alt={degree.alt_name}
               />
             </div>
           </Flip>
-        )} */}
+        )}
         <Fade right duration={2000} distance="40px">
           <div
             className="card-body"

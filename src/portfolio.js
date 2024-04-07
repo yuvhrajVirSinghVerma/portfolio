@@ -25,8 +25,8 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/14OvNX_8iwUEzxkwrR9co4XfeHfjfMV0l/view?usp=sharing",//tbd
-  portfolio_repository: "https://github.com/sarabpreets7/my-portfolio",//tbd
+    "https://drive.google.com/file/d/14OvNX_8iwUEzxkwrR9co4XfeHfjfMV0l/view?usp=sharing",
+  portfolio_repository: "https://github.com/yuvhrajVirSinghVerma/portfolio",
   githubProfile: "https://github.com/yuvhrajVirSinghVerma?tab=repositories",
 };
 
@@ -131,7 +131,8 @@ const skills = {
       title: "Software Developer",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building high speed, responsive applications front end using Reactjs,React Native",
+        "⚡ Building high speed, responsive web applications using React Js and Mobile Applications using React Native",
+        "⚡ Creating application backend in Node, Express" ,
         "⚡ Strong understanding of web design principles and responsive design, skilled at debugging and problem-solving",
         "⚡ Continuous learning and desire to stay up-to-date with the latest industry trends and best practices",
       ],
@@ -501,7 +502,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "I have worked as a Software Developer ,both as a Front-End and Fullstack Developer.",
+    "I've had the privilege of contributing to the field of software development, working with  tech companies to deliver innovative solutions. Here's an overview of my professional journey",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -602,7 +603,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "In each of these projects, I demonstrated my expertise in frontend and Backend by using the latest technologies and design best practices to develop high-quality products.",
+    "My projects makes use of vast variety of latest technology tools . In each of these projects, I demonstrated my expertise in frontend and Backend by using the latest technologies and design best practices to develop high-quality products.",
   avatar_image_path: "projects_image.svg",
 };
 

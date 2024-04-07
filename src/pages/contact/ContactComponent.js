@@ -10,7 +10,7 @@ import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
-import profile from "./r1.png";
+import profile from "./r21.png";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -34,7 +34,9 @@ const Contact = (props) => {
         <Fade bottom duration={1000} distance="40px">
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
-              <img src={profile} alt="" />
+              <img 
+              style={{borderRadius:"50%"}}
+              src={profile} alt="" />
             </div>
             <div className="contact-heading-text-div">
               <h1 className="contact-heading-text" style={{ color: theme.text }}>

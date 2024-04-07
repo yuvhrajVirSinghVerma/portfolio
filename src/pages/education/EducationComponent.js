@@ -16,7 +16,7 @@ class Education extends Component {
     const theme = this.props.theme;
     return (
       <div className="education-main">
-        <Header  changeTheme={this.props.changeTheme} theme={this.props.theme} />
+        <Header changeTheme={this.props.changeTheme} theme={this.props.theme} />
         <div className="basic-education">
           <Fade bottom duration={2000} distance="40px">
             <div className="heading-div">
@@ -32,9 +32,22 @@ class Education extends Component {
                   Education
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Basic Qualification 
-                  
+                  Basic Qualification
                 </h3>
+                <p
+                  style={{
+                    fontSize: "20px",
+                    lineHeight: "30px",
+                    marginTop: "0px",
+                    marginLeft: "20px",
+                    marginRight: "20px",
+                    fontFamily: "Google Sans Medium",
+                  }}
+                >
+                  During my academic journey, I focused on Computer Science,
+                  delving into various aspects of software development and
+                  technology. Here's a snapshot of my educational background
+                </p>
                 {/* and Certifcations */}
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
