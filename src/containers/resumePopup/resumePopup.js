@@ -1,7 +1,7 @@
 // ResumePopup.js
 import React from "react";
 import './resumePopup.css';
-import resume from '../../assests/pdf/resume.pdf';
+import resume from '../../assests/pdf/Yuvhraj_resume.pdf';
 
 const ResumePopup = ({ onClose }) => {
   return (
