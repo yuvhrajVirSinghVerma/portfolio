@@ -23,7 +23,10 @@ const icons =({name})=>{
     express:<icon.SiExpress/>,
     redux:<icon.SiRedux/>,
     jwt:<icon.SiJsonwebtokens/>,
-    chartjs:<icon.SiChartdotjs/>
+    chartjs:<icon.SiChartdotjs/>,
+    NextJs:<icon.SiNextdotjs />,
+    TypeScript:<icon.SiTypescript/>,
+    Tailwind:<icon.SiTailwindcss/>,
   };
   return iconComponents[name] || null;
 }
@@ -52,6 +55,7 @@ const icons =({name})=>{
           <p className="repo-description" style={{ color: theme.text }}>
             {repo.description}
           </p>
+         
           <div className="repo-details">
             {repo.createdAt && (<p
               className="repo-creation-date subTitle"

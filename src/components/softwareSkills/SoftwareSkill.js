@@ -22,7 +22,8 @@ const SoftwareSkill =(props)=> {
       javascript:<icon.SiJavascript />,
       java:<FaJava />,
       nextjs:<icon.SiNextdotjs/>,
-      docker:<icon.SiDocker/>
+      docker:<icon.SiDocker/>,
+      TypeScript:<icon.SiTypescript/>,
     };
     return iconComponents[name] || null;
   }

@@ -228,7 +228,15 @@ const skills = {
           style: {
             color: "#02569B",
           },
-        }
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "TypeScript",
+          style: {
+            color: "#02569B",
+          },
+         
+        },
         
       ],
     },
